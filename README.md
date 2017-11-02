@@ -16,6 +16,8 @@ The project is implementing a small Facebook-powered web app. The goal of the ap
 
 To use these APIs you have to create an account for each one and then create personal app (graph or firebase) to get your parameters.
 
+Also you'll need to allow non-authentified requests in FireBase (realTime Database security rules). 
+
 The project use my accounts for graph and FireBase API, to adapt it go to:
 
 	src/file/profil/profil.component.ts   and adjust "initParams" with your graph API account configuration 
