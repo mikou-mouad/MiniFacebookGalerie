@@ -1,0 +1,14 @@
+<div class="container">
+
+  <h2 class="center">Link your facebook accout</h2>
+  <div class="btn-block">
+	  <button (click)="loginWithOptions()" class="btn btn-lg btn-primary">
+	    Link and grant access to Albums&Photos
+	  </button>
+	
+	  <button class="btn btn-lg btn-primary" (click)="getAlbumsAndPhotos()">Display Albums cover photo</button>
+  </div>
+</div>
+
+     <img *ngFor="let uri of UriAlbums" [src]=" uri " alt="Mountain View" (click)="uploadToFireBase( uri )"/>
+
