@@ -1,6 +1,14 @@
-# LocalStorageTest
+# MiniFacebookGalerie
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+
+
+## The graph API and FireBase API 
+
+The project use my accounts for graph and FireBase API, to adapt it go to:
+
+	src/file/profil/profil.component.ts   and adjust "initParams" with your graph API account configuration 
+	src/environments/environments.ts      and adjust "config" with your firebase API account configuration
 
 ## Development server
 
