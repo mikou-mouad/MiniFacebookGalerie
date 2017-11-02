@@ -6,11 +6,11 @@ The project is implementing a small Facebook-powered web app. The goal of the ap
 
 ## Expected Behavior of the app
 
-Via the app homepage, the user can create a new account using an email and password.
-After the new account is created, the user can connect to the app anytime with the same email and password.
-The first time the user sign in, he can link his Facebook account and grant access to his Facebook albums & photos.
-After linking his Facebook account, the user can see on the app homepage a grid/list of his albums from Facebook.
-The user can click on a photo from the homepage to export it to Firebase Cloud Storage.
+	Via the app homepage, the user can create a new account using an email and password.
+	After the new account is created, the user can connect to the app anytime with the same email and password.
+	The first time the user sign in, he can link his Facebook account and grant access to his Facebook albums & photos.
+	After linking his Facebook account, the user can see on the app homepage a grid/list of his albums from Facebook.
+	The user can click on a photo from the homepage to export it to Firebase Cloud Storage.
 
 ## The graph API and FireBase API 
 
